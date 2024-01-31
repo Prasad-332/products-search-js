@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+
+}
+
+body {
+    margin: 4vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.sidebar {
+    width: 25%;
+    border: apx solid #eeee;
+    border-radius: 3px;
+    padding: 15px;
+    height: 92vh;
+    box-shadow: 0px 0px 3px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.data {
+    width: 73%;
+    border-radius: 3px;
+    height: 92vh;
+    overflow-y: auto;
+}
+
+.sidefoot {
+    display: flex;
+    justify-content: center;
+}
+
+.fa-brands:hover {
+    cursor: pointer;
+    color: orangered;
+}
+
+.data {
+    width: 73%;
+    border-radius: 3px;
+    height: 92vh;
+    overflow-y: auto;
+
+}
+
+.fa-circle {
+    color: orangered;
+}
+
+.searchbar {
+    width: 100%;
+    background-color: #eee;
+    border: 3px;
+    padding: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+input {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.fa-magnifying-glass:hover {
+    color: orangered;
+    cursor: pointer;
+}
+
+.top{
+    height: 60px;
+    color: white;
+    border-radius: 3px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: rgb(217, 72, 20);
+}
+
+.header {
+    height: 200px;
+    border-radius: 3px;
+    background-color: darkslategray;
+    margin: 3vh 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header p {
+    font-size: 40px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+#root {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.card {
+    margin: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #b8b0b0;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 10rem;
+    margin: 2rem;
+}
+
+.img-box {
+    height: 20px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ .images{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.cardbody {
+    border: 2px solid black;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 25vh;
+
+}
+
+h5 {
+    font-size: 10px;
+}
+
+a {
+    font-size: 10px;
+    color: orangered;
+}
